@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@800;900&display=swap');
+
+
+.Subheader {
+    background-color: #227BA1;
+    display: flex;
+    padding: 10px ;
+    justify-content: space-evenly;
+}
+
+.aba{
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFF;
+    margin-left: -50%;
+    font-family: Alegreya, sans-serif;
+    font-weight: 6  50;
+}
+
+.aba:hover{
+    color: #4ABCED;
+}
