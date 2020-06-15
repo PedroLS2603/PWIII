@@ -10,7 +10,7 @@
 
 .nav-link{
     text-decoration: none;
-    font-size: 30px;
+    font-size: 24px;
     color: var(--link-color);
     margin-left: -50%;
     font-family: Alegreya, sans-serif;
@@ -26,7 +26,6 @@
 
 .nav-link:hover{
     color: var(--link-color);
-    border-bottom: solid 2px var(--link-color);
-    opacity: .85;
+    opacity: 1;
 }
 

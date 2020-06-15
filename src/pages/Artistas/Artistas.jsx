@@ -1,5 +1,4 @@
 import React from 'react';
-import Card from "../../components/CardArtista"
 import './Artistas.css';
 import CardArtista from '../../components/CardArtista';
 
