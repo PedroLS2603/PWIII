@@ -10,7 +10,7 @@
 
 .aba{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 30px;
     color: #FFF;
     margin-left: -50%;
     font-family: Alegreya, sans-serif;
@@ -19,4 +19,9 @@
 
 .aba:hover{
     color: #4ABCED;
+}
+
+.aba:active {
+    color: #4ABCED;
+    text-decoration: underline;
 }

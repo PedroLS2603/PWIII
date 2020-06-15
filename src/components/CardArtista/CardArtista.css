@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@800;900&display=swap');
+
+.Card {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRz8xlILZNOXlrNwLWdZzq_hvIWJv58PsF6-i9lPPHe7toa4lnw&usqp=CAU");
+    height: 220px;
+    width: 2    20px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 10px;
+}
+
+.card-artista:hover {
+    color:#A16622;
+}
