@@ -2,26 +2,31 @@
 
 
 .Subheader {
-    background-color: #227BA1;
+    background-color: var(--header-color);
     display: flex;
     padding: 10px ;
     justify-content: space-evenly;
 }
 
-.aba{
+.nav-link{
     text-decoration: none;
     font-size: 30px;
-    color: #FFF;
+    color: var(--link-color);
     margin-left: -50%;
     font-family: Alegreya, sans-serif;
-    font-weight: 6  50;
+    font-weight: 550;
+    opacity: .75;
 }
 
-.aba:hover{
-    color: #4ABCED;
+.nav-link.active {
+    color: var(--link-color);
+    border-bottom: solid 2px var(--link-color);
+    opacity: 1;
 }
 
-.aba:active {
-    color: #4ABCED;
-    text-decoration: underline;
+.nav-link:hover{
+    color: var(--link-color);
+    border-bottom: solid 2px var(--link-color);
+    opacity: .85;
 }
+

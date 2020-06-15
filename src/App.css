@@ -1,5 +1,10 @@
 .App {
   min-height: 100vh;
+  --link-active-color: #4ABCED;
+  --link-color: #FFFFFF;
+  --link-destak-color:#A16622;
+  --endbar-color: #227BA1;
+  --header-color: #227BA1;
 }
 
 .content {
@@ -7,3 +12,4 @@
   display: flex;
   justify-content: space-around;
 }
+

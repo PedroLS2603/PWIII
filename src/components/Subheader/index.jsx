@@ -1,12 +1,13 @@
 import React from 'react'
 import './Subheader.css'
+import { NavLink } from 'react-router-dom'
 
 
 export default function Subheader(props){
     return(
         <div className="Subheader">
-            <a class="aba" href="#">Lançamentos</a>
-            <a class="aba" href="#">Artistas</a>
+            <NavLink to="/lancamentos" className="nav-link">Lançamentos</NavLink>
+            <NavLink to="/artistas" className="nav-link">Artistas</NavLink>
         </div>
     )
 }

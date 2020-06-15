@@ -1,5 +1,5 @@
 .Endbar {   
-    background-color: #227BA1;
+    background-color: var(--endbar-color);
     min-height: 38px;
     margin-top:40px;
 }

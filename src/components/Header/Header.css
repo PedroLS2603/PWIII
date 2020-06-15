@@ -1,5 +1,5 @@
 .Header {
-    background-color: #227BA1;
+    background-color: var(--header-color);
     display: flex;
     padding: 10px ;
     opacity: 95%;

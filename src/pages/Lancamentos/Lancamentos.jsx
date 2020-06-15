@@ -1,7 +1,7 @@
 import React from 'react';
-import Card from "../../components/Card"
+import Card from "../../components/CardLancamento"
 import './Lancamentos.css';
-import CardLancamento from '../../components/Card';
+import CardLancamento from '../../components/CardLancamento';
 
 
 export default function Lancamentos(){

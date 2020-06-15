@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@800;900&display=swap');
 
-.Card {
+.CardArtista {
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRz8xlILZNOXlrNwLWdZzq_hvIWJv58PsF6-i9lPPHe7toa4lnw&usqp=CAU");
     height: 220px;
-    width: 2    20px;
+    width: 220px;
     margin: 15px;
     display: flex;
     justify-content: center;
@@ -11,6 +11,16 @@
     border-radius: 10px;
 }
 
-.card-artista:hover {
-    color:#A16622;
+.texto-artista{
+    text-decoration: none;
+    font-family: Alegreya, sans-serif;
+    font-weight: 550;
+    color: var(--link-color);
+    font-size: 25px;
+    opacity: .8;
+}
+
+.texto-artista:hover {
+    color: var(--link-color);
+    opacity: 1;
 }
