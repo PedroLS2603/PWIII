@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@800;900&display=swap');
+
+
+.PerfilArtista {
+    background-image: url(https://ogimg.infoglobo.com.br/in/24131425-b34-25f/FT1500A/690/xed-sheeran.jpg.pagespeed.ic.Mqz4EXdd4H.jpg);
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    min-width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+.arrow_foto_nome{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    display:flex;
+    justify-content: baseline;
+    flex-direction: row;
+}
+.nomeGenero{
+    display: flex;
+    flex-direction: column;
+}
+.fotoArtista {
+    border-radius: 20px;
+    margin-left: 50px;
+    opacity: .8;
+}
+.TituloArtista{
+    text-decoration: none;
+    font-family: Alegreya, sans-serif;
+    font-weight: 550;
+    color: var(--link-color);
+    font-size: 60px;
+    margin-left: 25px;
+}
+.generos {
+    display: flex;
+    align-content:center;
+    margin-left: 30px;
+}
+
+.Genero{
+    font-family: Alegreya, sans-serif;
+    font-weight: 550;
+    background-color: black;
+    padding: 4px;
+    border-radius: 10px;
+    color: var(--link-color);
+    align-self: center;
+}
+.material-icons {
+    color: var(--link-color);
+}
+
+
+.tops {
+    margin-top:30px;
+    margin-left:25px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.topsContent {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: #227BA1;
+}
+.topsMusica{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    padding:8px;
+    border-bottom:0px;
+}
+
+.NavArtista {
+    text-decoration: none;
+    font-family: Alegreya, sans-serif;
+    font-weight: 550;
+    color: #227BA1;
+    font-size:45px;
+    opacity: .75;
+}
+
+.NavArtista.active {
+    opacity:1;
+    border-bottom: 5px solid #227BA1;
+    border-radius: 2px;
+}
+
+.NavArtista:hover{
+    opacity:1;
+}
+
+.NavMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.textMusica{
+    font-family: Alegreya, sans-serif;
+    font-weight: 550;
+    color: var(--link-color);
+    font-size:20px;
+    margin-left: 7px;
+}

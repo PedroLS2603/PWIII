@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@800;900&display=swap');
+
+.NavMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.NavArtista {
+    text-decoration: none;
+    font-family: Alegreya, sans-serif;
+    font-weight: 550;
+    color: #227BA1;
+    font-size:45px;
+    opacity: .75;
+}
+
+.NavArtista.active {
+    opacity:1;
+    border-bottom: 5px solid #227BA1;
+    border-radius: 2px;
+}
+
+.NavArtista:hover{
+    opacity:1;
+}
+
+.albuns {
+    margin-left:25px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 50px;
+    margin-left: 50px;
+}

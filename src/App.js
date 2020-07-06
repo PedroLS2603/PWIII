@@ -8,6 +8,8 @@ import Subheader from "./components/Subheader";
 import Endbar from "./components/Endbar";
 import Lancamentos from "./pages/Lancamentos/Lancamentos"
 import Artistas from "./pages/Artistas/Artistas"
+import Artista from './pages/Artista/Artista';
+import ArtistaAlbuns from './pages/ArtistaAlbuns/ArtistaAlbuns';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           <Route exact path="/" component={Lancamentos}/>
           <Route path="/lancamentos" component={Lancamentos}/>
           <Route path="/artistas" component={Artistas}/>
+          <Route path="/artista/" component={Artista}/>
+          <Route path="/albuns" component={ArtistaAlbuns}/>
         </Switch>
       </BrowserRouter>
       <Endbar/>
