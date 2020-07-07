@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@800;900&display=swap');
+
+.CardAlbum{
+    background-image: url("https://upload.wikimedia.org/wikipedia/pt/thumb/d/d3/Ed_Sheeran_-_Divide.png/220px-Ed_Sheeran_-_Divide.png");
+    height: 220px;
+    width: 220px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 10px;
+}
+
+.texto-album{
+    text-decoration: none;
+    font-family: Alegreya, sans-serif;
+    font-weight: 550;
+    color: var(--link-color);
+    font-size: 25px;
+    opacity: .8;
+}
+
+.texto-album:hover {
+    color: var(--link-color);
+    opacity: 1;
+}

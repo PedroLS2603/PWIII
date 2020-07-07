@@ -2,7 +2,7 @@ import React from 'react'
 import './ArtistaAlbuns.css';
 import '../Artista/Artista.css';
 import { NavLink } from 'react-router-dom';
-import CardLancamento from '../../components/CardLancamento';
+import CardAlbum from '../../components/CardAlbum';
 
 export default function ArtistaAlbuns(){
     return(
@@ -26,10 +26,10 @@ export default function ArtistaAlbuns(){
             </div>
             <div className="albuns">
                 <div className="content">
-                    <CardLancamento/>
-                    <CardLancamento/>
-                    <CardLancamento/>
-                    <CardLancamento/>   
+                    <CardAlbum/>
+                    <CardAlbum/>
+                    <CardAlbum/>
+                    <CardAlbum/>   
                 </div>
             </div>
         </div>

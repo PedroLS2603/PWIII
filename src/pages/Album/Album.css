@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@800;900&display=swap');
+
+.CapaNomeInfo{
+    display: flex;
+    flex-direction: row;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+.CapaAlbum{
+    border-radius: 180px;
+}
+
+.NomeInfo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.Nome{
+    font-family: Alegreya, sans-serif;
+    font-size:50px;
+    font-weight: 550;
+}
+
+.Info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    font-family: Alegreya, sans-serif;
+    font-size:25px;
+    font-weight: 450;
+}
+
+.AlbumContent {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    background-color: #227BA1;
+    width: 70%;
+    align-self: center;
+    margin-left: 200px;
+}
+.AlbumMusica{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    padding:8px;
+    border-bottom:0px;
+}

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@800;900&display=swap');
+
+.material-icons {
+    color: #000000;
+    margin-left: 40px;
+}
+
+.arrow_foto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.FotoArtista {
+    border-radius: 180px;
+    margin-left: 90px;
+    margin-top: 90px;
+}
+.NomeMusica{
+    text-decoration: none;
+    font-family: Alegreya, sans-serif;
+    font-weight: 550;
+    color: var(--endbar-color);
+    font-size: 60px;
+    margin-left: 25px;
+}
+
+.ArtistaMusica {
+    display: flex;
+    flex-direction: column;
+}
+
+.NomeArtista{
+    font-family: Alegreya, sans-serif;
+    font-weight:450;
+    font-size:22px;
+    margin-left:27px;
+}
+
+.LetraMusica {
+    display: flex;
+    flex-direction: column;
+}
+
+.Letra {
+    font-family: Alegreya, sans-serif;
+    font-size: 20px;
+    font-weight: 450;
+    width: 35%;
+    align-self: center;
+    text-align: justify;
+}

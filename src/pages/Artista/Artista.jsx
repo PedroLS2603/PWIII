@@ -26,23 +26,23 @@ export default function Artista(){
                 <div className="topsContent">
                     <div className="topsMusica">
                         <div className="material-icons">album</div>
-                        <text className="textMusica">1. Shape of You</text>
+                        <NavLink to="/musica" className="textMusica">1. Shape of You</NavLink>
                     </div>
                     <div className="topsMusica">
                         <div className="material-icons">album</div>
-                        <text className="textMusica">2. Castle on the hill</text>
+                        <NavLink to="/musica" className="textMusica">2. Castle on the hill</NavLink>
                     </div>
                     <div className="topsMusica">    
                         <div className="material-icons">album</div>
-                        <text className="textMusica">3. Eraser</text>
+                        <NavLink to="/musica" className="textMusica">3. Eraser</NavLink>
                     </div>
                     <div className="topsMusica">
                         <div className="material-icons">album</div>
-                        <text className="textMusica">4. Photograph</text>
+                        <NavLink to="/musica" className="textMusica">4. Photograph</NavLink>
                     </div>
                     <div className="topsMusica">
                         <div className="material-icons">album</div>
-                        <text className="textMusica">5. The A Team</text>
+                        <NavLink to="/musica" className="textMusica">5. The A Team</NavLink>
                     </div>
                 </div>
             </div>
