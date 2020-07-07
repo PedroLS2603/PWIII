@@ -1,12 +1,14 @@
 import React from 'react';
 import './CardLancamento.css';
+import { NavLink } from 'react-router-dom'
+
 export default function CardLancamento(){
     return(
         <div className='CardLancamento'>
             <div className="wrapper">
-                <a className="card-musica" href="#">Shape of you</a>
+                <NavLink to="/musica" className="card-musica" href="#">Shape of you</NavLink>
                 <br></br>
-                <a className="card-artista" href="#">Ed sheeran</a>
+                <NavLink to="/artista" className="card-artista" href="#">Ed sheeran</NavLink>
             </div>
         </div>
     )   
