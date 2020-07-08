@@ -9,8 +9,12 @@
     justify-content: space-around;
   }
 
+.Header form {
+  display: flex;  
+}
+
   .busca {
-    border-radius: 15px;
+    border-radius: 12px;
     padding-right: 650px;
     border:0;
     padding-left:20px;
@@ -18,8 +22,19 @@
 
   .search-icon {
     font-family: Material Icons;
-    margin-left: -260px;
-    margin-top: 3px;
     font-size:20px;
+    border: solid var(--link-destak-color);
+    border-radius: 12px;
+    margin-left: 5px;
+    color: var(--link-color);
+    background-color: var(--link-destak-color);
+    font-weight: 850;
+    opacity: .8;
+    margin-left: -42.7px;
+    cursor: pointer;
+  }
+
+  .search-icon:hover {
+    opacity: 1;
   }
   

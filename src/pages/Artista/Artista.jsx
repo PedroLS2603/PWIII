@@ -1,19 +1,29 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import './Artista.css';
+import axios from 'axios'
 import { NavLink } from 'react-router-dom';
 
 export default function Artista(){
+    
+    const [artista, setArtista] = useState([])
+    useEffect(function(){load()},[])
+
+        
+    async function load(){
+        const resposta = await axios.get(`https://www.vagalume.com.br/${window.location.href}/index.js`)
+        console.log(resposta)
+    }
+    
     return(
         <div>
             <div className="PerfilArtista"> 
-                <div className="arrow_foto_nome">
-                    <span class="material-icons">arrow_back</span>
+                <div className="arrow_foto_nome">   
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRz8xlILZNOXlrNwLWdZzq_hvIWJv58PsF6-i9lPPHe7toa4lnw&usqp=CAU" className="fotoArtista"></img>
                     <div className="nomeGenero">
-                    <text className="TituloArtista">Ed Sheeran</text>
+                    <h3 className="TituloArtista">Ed Sheeran</h3>
                     <div className="generos">
-                        <text className="Genero">Pop/rock</text>
-                        <text className="Genero">Romântico</text>
+                        <h3 className="Genero">Pop/rock</h3>
+                        <h3 className="Genero">Romântico</h3>
                     </div>    
                 </div>
                 </div>
