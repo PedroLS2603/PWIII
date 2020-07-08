@@ -1,0 +1,9 @@
+.content2 {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: 60px;
+    justify-content: space-around;
+  }
+  
