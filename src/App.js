@@ -18,8 +18,8 @@ import Top10 from './pages/Top10/Top10';
 function App() {
   return (
     <div className="App"> 
-      <Header/>
       <BrowserRouter>
+      <Header/>
         <Subheader/>
         <Switch>
           <Route exact path="/" component={Lancamentos}/>
