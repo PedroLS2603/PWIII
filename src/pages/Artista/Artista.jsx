@@ -5,15 +5,7 @@ import { NavLink } from 'react-router-dom';
 
 export default function Artista(){
     
-    const [artista, setArtista] = useState([])
-    useEffect(function(){load()},[])
 
-        
-    async function load(){
-        const resposta = await axios.get(`https://www.vagalume.com.br/${window.location.href}/index.js`)
-        console.log(resposta)
-    }
-    
     return(
         <div>
             <div className="PerfilArtista"> 
